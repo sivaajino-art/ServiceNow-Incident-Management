@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-09-29 16:13:39">
+<sys_ui_policy action="INSERT_OR_UPDATE">
+<active>true</active>
+<conditions table="incident">impact=1^EQ<item goto="false" or="false" field="impact" endquery="false" value="1" operator="=" newquery="false"/>
+<item goto="false" or="false" field="" endquery="true" value="" operator="=" newquery="false"/>
+</conditions>
+<description/>
+<global>true</global>
+<inherit>false</inherit>
+<isolate_script>true</isolate_script>
+<model_id/>
+<model_table/>
+<on_load>true</on_load>
+<order>100</order>
+<reverse_if_false>true</reverse_if_false>
+<run_scripts>false</run_scripts>
+<script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+<script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+<set_values/>
+<short_description>High Impact Control</short_description>
+<sys_class_name>sys_ui_policy</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 07:25:58</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>d65b8d32832f87106b17f4a6feaad382</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>High Impact Control</sys_name>
+<sys_overrides display_value=""/>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_ui_policy_d65b8d32832f87106b17f4a6feaad382</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 07:25:58</sys_updated_on>
+<table>incident</table>
+<ui_type>0</ui_type>
+<view display_value="" name="NULL"/>
+</sys_ui_policy>
+</unload>
